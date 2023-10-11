@@ -1,0 +1,72 @@
+<mxfile host="Electron" modified="2023-10-08T08:21:10.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="SwAVX87US7LKUIO1eOEI" version="22.0.2" type="device">
+  <diagram name="Página-1" id="2ui9mOw-IIXDFMUEWTX0">
+    <mxGraphModel dx="1120" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-1" target="nuL_qRuzOqNdQvxeRl_q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-1" value="Install sensors and register location" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-2" target="nuL_qRuzOqNdQvxeRl_q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-2" value="Sensors read the data and upload it to a central database through STARLINK WiFi connection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="67.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="nuL_qRuzOqNdQvxeRl_q-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427.5" y="289.5" as="sourcePoint" />
+            <mxPoint x="600" y="289.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="290" />
+              <mxPoint x="500" y="260" />
+              <mxPoint x="600" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-4" target="nuL_qRuzOqNdQvxeRl_q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-4" target="nuL_qRuzOqNdQvxeRl_q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-4" value="If there&#39;s a Fire (Fire Alert an Temperature/ Humidity anomalies)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="260" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-6" value="Alarm sets off" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="612" y="245" width="102.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-8" target="nuL_qRuzOqNdQvxeRl_q-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="500" />
+              <mxPoint x="581" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-8" value="Location and Time sent to authorities and to the government to send a WEA (Wireless Emergency Alert)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nuL_qRuzOqNdQvxeRl_q-11" target="nuL_qRuzOqNdQvxeRl_q-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="500" />
+              <mxPoint x="580" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-11" value="Sensors continue to read data and calculate Forecast Prediction" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="400" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL_qRuzOqNdQvxeRl_q-13" value="Upload Data to the Live Map" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
