@@ -1,41 +1,59 @@
-# HackathonFire
+## Hello! Welcome to `Fighting Fire with Fire`'s project GitHub page
 
-Project Team: 
-    Fighting fire with fire
-    
-Members of the Team: 
-    ROBERT RAFANELLI, CLAUDIA ORTIZ, JOE BIJU, MICHEÁL GILL, RAY FOYSAL, MOAZ REFAEI
+# Meet the Team 
 
-Challenge
-    Managing Fires: Increasing Community Based Fire Management Opportunities.
+* ROBERT RAFANELLI
+* CLAUDIA ORTIZ
+* JOE BIJU
+* MICHEÁL GILL
+* RAY FOYSAL
+* MOAZ REFAEI
 
-High-Level Summary
-    Though satellites are an important and amazing tool in our arsenal in the 21st century, having sensors on the ground is a key factor in ensuring speedy detection and addressal by emergency services. Our project intends to take on the challenge of “Managing Fire” by installing an array of sensors located through wild-fire prone areas. Each individual unit contains heat, humidity and smoke detectors that is the relayed back to a central station to be processed and displayed on a suitable graph. This real-time data can help emergency services quickly locate and stop the flames whilst it is still in its early phase. This is important in working quicker to minimise the damage to the environment and local communities. Combined with the data from satellites on terrain, weather, etc. this can be fed into a prediction algorithm which can track and forecast the spread of the fire.
 
-Project Links
-    Project Demo
-        https://www.canva.com/design/DAFwkVmWuFw/x4a1gZBLiGtskBXygZIdHw/edit?utm_content=DAFwkVmWuFw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton
-    Final Project
-        https://www.canva.com/design/DAFwkVmWuFw/x4a1gZBLiGtskBXygZIdHw/edit?utm_content=DAFwkVmWuFw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton
-    Video Links
-        https://youtu.be/mCscuKfXkJo?feature=shared
-        https://youtu.be/R-zqj8HamZ0?feature=shared
 
-Project Information Details
-    The prototype project consists of the following parts:
-        • Arduino Uno R3 + Arduino IDE
-        • Redbear Labs Bluetooth Shield
-        • DHT11 Heat and Humidity Sensor
-        • Carbon Monoxide Sensor
-        • 9 Volt Battery
-        • 3D Printed Housing for components using Fusion360.
-        • Clear Acrylic lid for Housing
-        • 2x Straps for securing the project to the tree.
-        • Oracle Database
-        • Android Studio
-        • Coding languages: Java, C++, and SQL
-        • NASA Global Imagery Browse Services (GIBS)
-    
+# NASA SpaceApps Challenge
+**Managing Fires: Increasing Community Based Fire Management Opportunities.**
+
+> ABOUT THE CHALLENGE:
+>
+> NASA’s satellite-derived active fire data are freely available and provide valuable information to a wide range of users. However, as wildfires continue to increase in frequency, number, and size, the need for more diverse stakeholder groups to understand and use these data is rapidly expanding. Your challenge is to develop solutions to address fire and natural resource monitoring through innovative use of technology and publicly available data, enabling local communities to report and monitor fires and/or improve current data distribution.
+
+# High-Level Summary of Project
+Though satellites are an important and amazing tool in our arsenal in the 21st century, having sensors on the ground is a key factor in ensuring speedy detection and addressal by emergency services. Our project intends to take on the challenge of “Managing Fire” by installing an array of sensors located through wild-fire prone areas. 
+
+Each individual unit contains heat, humidity and smoke detectors that is the relayed back to a central station to be processed and displayed on a suitable graph. 
+
+This real-time data can help emergency services quickly locate and stop the flames whilst it is still in its early phase. This is important in working quicker to minimise the damage to the environment and local communities. Combined with the data from satellites on terrain, weather, etc. this can be fed into a prediction algorithm which can track and forecast the spread of the fire.
+
+#    More Info
+### <u>Project Links</u>
+[Project Presentation [canva.com]](https://www.canva.com/design/DAFwkVmWuFw/x4a1gZBLiGtskBXygZIdHw/edit?utm_content=DAFwkVmWuFw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton)
+(_Presented by our team at NASA SpaceApps Athlone in October 2023_)
+
+### <u>Video Links</u>
+[Recorded Demo [YouTube]](https://youtu.be/mCscuKfXkJo?feature=shared)
+
+[Graphical Demo of User Interface [YouTube]](https://youtu.be/R-zqj8HamZ0?feature=shared)
+
+### <u>Components Used</U>
+Over the course of the projects, the following parts were tested, some of which were included in the final prototype. These include: 
+* Arduino Uno R3 + Arduino IDE
+* Redbear Labs Bluetooth Shield
+* DHT11 Heat and Humidity Sensor
+* Carbon Monoxide Sensor
+* 9 Volt Battery
+* 3D Printed Housing for components (design using Fusion360)
+* 2x straps (used to secure the device to a tree)
+* Oracle Database
+* Android Studio
+  
+### <u>Coding languages</u>
+Java, C++, and SQL
+
+### <u>Other Resources used</u>
+NASA Global Imagery Browse Services (GIBS)
+
+## Footnote    
     We designed this simplified prototype to show the basic requirements for such a device. The custom 3D printed housing is ergonomically designed to store all of the electrical components and also to fit any tree it could be placed on. Cavities are placed on the inside of the housing to feed the straps through to secure the beacon to the tree. On the underside of the housing, numerous slots allow heat, humidity, and carbon monoxide to enter the housing.
 
     To know where to place these devices, we used the NASA Open Data to analyse where most forest fires have been.
@@ -71,3 +89,5 @@ Space Agency Data
 
 References 
     See references in the "Hackathon Delivery.pdf".
+    
+    
