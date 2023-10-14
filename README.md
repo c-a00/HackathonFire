@@ -9,7 +9,7 @@
 * RAY FOYSAL
 * MOAZ REFAEI
 
-
+![Meet_The_Team_(Slide)](https://github.com/c-a00/HackathonFire/assets/79516500/f695662e-923e-429d-b34a-b09359419506)
 
 # NASA SpaceApps Challenge
 **Managing Fires: Increasing Community Based Fire Management Opportunities.**
@@ -25,6 +25,9 @@ Each individual unit contains heat, humidity and smoke detectors that is the rel
 
 This real-time data can help emergency services quickly locate and stop the flames whilst it is still in its early phase. This is important in working quicker to minimise the damage to the environment and local communities. Combined with the data from satellites on terrain, weather, etc. this can be fed into a prediction algorithm which can track and forecast the spread of the fire.
 
+![HackathonFire-Fig1](https://github.com/c-a00/HackathonFire/assets/79516500/31e6a2fb-c975-4946-b01e-88849ba585c6)
+
+_Figure 1 - Prototype Top Down Picture_
 #    More Info
 ### <u>Project Links</u>
 [Project Presentation [canva.com]](https://www.canva.com/design/DAFwkVmWuFw/x4a1gZBLiGtskBXygZIdHw/edit?utm_content=DAFwkVmWuFw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton)
