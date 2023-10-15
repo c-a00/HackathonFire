@@ -98,9 +98,9 @@ NASA Global Imagery Browse Services (GIBS)
     In the future, we could also send the data captured from the sensors to the database through a Wi-Fi connection (such as STARLINK), so we can send the data from thousands of kilometres away; and not Bluetooth as it is now. This way we can transfer the data without having the problem of the distance between the sensors and the database.
 
 Space Agency Data 
-    See SpaceApps Data used in the "Hackathon Delivery.pdf".
+    See SpaceApps Data used in the "References.pdf".
 
 References 
-    See references in the "Hackathon Delivery.pdf".
+    See references in the "References.pdf".
     
     
