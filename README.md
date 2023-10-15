@@ -61,7 +61,7 @@ Over the course of the projects, the following parts were tested, some of which 
 * Android Studio
   
 ### <u>Coding languages</u>
-Java, C++, and SQL
+Java, C++, Python and SQL
 
 ### <u>Other Resources used</u>
 NASA Global Imagery Browse Services (GIBS)
