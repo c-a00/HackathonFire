@@ -45,6 +45,9 @@ _Figure 3 - Prototype_v2 Images of 3D printed model_
 
 ### <u>Video Links</u>
 [Recorded Demo [YouTube]](https://youtu.be/mCscuKfXkJo?feature=shared)
+<p>&nbsp;</p>
+
+![HackathonFire-Fig5-UIDemo](https://github.com/c-a00/HackathonFire/assets/79516500/3763b5ec-3026-4bb2-99e9-a46bf66e7b29)
 
 [Graphical Demo of User Interface [YouTube]](https://youtu.be/R-zqj8HamZ0?feature=shared)
 
