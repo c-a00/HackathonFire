@@ -12,6 +12,7 @@ DHT HT(sensePin,Type); // Create an object from DHT library, called "HT", with t
 // create an object from 
 float Humidity;
 float Temperature;
+float Co2Value;
 int setTime=500; // For delay
 int dt=3000; // Another delay constant
 
@@ -22,6 +23,7 @@ char longitude[] = "-7.9052747627789515";
 
 char outHumidity[8];
 char outTemp[8];
+char outCo2[8];
 
 
 void setup() {
@@ -36,53 +38,19 @@ void loop() {
   HT.read(sensePin);
   Humidity=HT.readHumidity();
   Temperature=HT.readTemperature();
+  Co2Value = analogRead(A5);
 
   dtostrf(Humidity,5,2,outHumidity);
   dtostrf(Temperature,5,2,outTemp);
+  dtostrf(Co2Value,5,2,outCo2);
 
-  char buffer[200];
-  sprintf(buffer, "{ \"SensorID\": \"%s\", \"Latitude\": %s, \"Longitude\": %s, \"Temperature\": %s, \"Humidity\": %s }", SensorID, latitude, longitude, outTemp, outHumidity);
+  char buffer[250];
+  sprintf(buffer, "{ \"SensorID\": \"%s\", \"Latitude\": %s, \"Longitude\": %s, \"Temperature\": %s, \"Humidity\": %s , \"Co2Value\": %s }", SensorID, latitude, longitude, outTemp, outHumidity, outCo2);
   Serial.println(buffer);
 
 
-  /*
-  // put your main code here, to run repeatedly:
-  Serial.print("{");
-
-  Serial.print("\nSensorID: \"");
-  Serial.print(SensorID);
-  Serial.print("\",");
-
-  Serial.print("\nLatitude: ");
-  Serial.print(latitude);
-  Serial.print(",");
-
-  Serial.print("\nLongitude: ");
-  Serial.print(longitude);
-  Serial.print(",");
-
-  TempAndHumid();
-
-  //COReading();
-
-
-  Serial.print("}");
-  */
   delay(dt);
 
 }
-void COReading() {
-  //we will need to create a gas sensor (eg. mq135) instead of the one we have to be able to acces the data and send it to the database
-  
-  int gassensorvalues = analogRead(A5);
-
-  Serial.print("\Co2 Value: ");
-  Serial.print(gassensorvalues);
-
-
-  
-}
-
-
 
 
