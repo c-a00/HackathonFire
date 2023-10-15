@@ -52,6 +52,7 @@ _Figure 3 - Prototype_v2 Images of 3D printed model_
 Over the course of the projects, the following parts were tested, some of which were included in the final prototype. These include: 
 * Arduino Uno R3 + Arduino IDE
 * Redbear Labs Bluetooth Shield
+* Arduino Wifi Module (ESP8266)
 * DHT11 Heat and Humidity Sensor
 * Carbon Monoxide Sensor
 * 9 Volt Battery
