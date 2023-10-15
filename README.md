@@ -27,7 +27,17 @@ This real-time data can help emergency services quickly locate and stop the flam
 
 ![HackathonFire-Fig1](https://github.com/c-a00/HackathonFire/assets/79516500/31e6a2fb-c975-4946-b01e-88849ba585c6)
 
-_Figure 1 - Prototype Top Down Picture_
+_Figure 1 - Prototype_v1 Top Down Image_
+<p>&nbsp;</p>
+
+![HackathonFire-3dModel-Animation](https://github.com/c-a00/HackathonFire/assets/79516500/e36688db-775d-403b-bc3a-7f51743b50f6)
+
+_Figure 2 - Prototype_v2 3D Model_
+<p>&nbsp;</p>
+
+![HackathonFire-Figure3](https://github.com/c-a00/HackathonFire/assets/79516500/f0ed36a5-e759-452f-a970-5cd8ff9ffca3)
+
+_Figure 3 - Prototype_v2 Images of 3D printed model_
 #    More Info
 ### <u>Project Links</u>
 [Project Presentation [canva.com]](https://www.canva.com/design/DAFwkVmWuFw/x4a1gZBLiGtskBXygZIdHw/edit?utm_content=DAFwkVmWuFw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton)
